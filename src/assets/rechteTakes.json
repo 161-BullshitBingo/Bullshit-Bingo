@@ -1,0 +1,1222 @@
+[
+  {
+    "short": "Großer Austausch",
+    "take": "Behauptet, Migration sei ein bewusst geplanter Bevölkerungsaustausch, um Angst zu erzeugen und demokratische Migrationspolitik als existenzielle Bedrohung zu framend.",
+    "tags": ["verschwörung", "migration", "rechtsextremismus"]
+  },
+  {
+    "short": "Umvolkung",
+    "take": "Biologistisch aufgeladener Begriff, der Migration als gezielte Zerstörung einer homogenen Nation darstellt und an NS-Ideologie anknüpft.",
+    "tags": ["rechtsextremismus", "nationalismus", "ns-kontinuität"]
+  },
+  {
+    "short": "Remigration",
+    "take": "Euphemismus für massenhafte Abschiebungen oder Vertreibungen, der den menschenrechtswidrigen Charakter verschleiert.",
+    "tags": ["migration", "euphemismus", "rechtsextremismus"]
+  },
+  {
+    "short": "Asylflut",
+    "take": "Naturmetapher, die Schutzsuchende entmenschlicht und Migration als unkontrollierbare Katastrophe darstellt.",
+    "tags": ["migration", "entmenschlichung", "populismus"]
+  },
+  {
+    "short": "Messermänner",
+    "take": "Rassistisch codierte Sammelbezeichnung, die Einzelfälle verallgemeinert und Gewalt ethnisiert.",
+    "tags": ["migration", "rassismus", "angstmache"]
+  },
+  {
+    "short": "Clankriminalität",
+    "take": "Selektiver Begriff, der Kriminalität ethnisch zuschreibt und sozioökonomische Ursachen ausblendet.",
+    "tags": ["migration", "rassismus", "statistik-manipulation"]
+  },
+  {
+    "short": "Einzelfall-Ironie",
+    "take": "Ironische Umdeutung des Begriffs Einzelfall, um systematische Verzerrungen in der Berichterstattung zu behaupten.",
+    "tags": ["medienkritik", "populismus"]
+  },
+  {
+    "short": "Asylbetrug",
+    "take": "Unterstellt systematischen Missbrauch des Asylrechts ohne belastbare Evidenz, um Schutzansprüche zu delegitimieren.",
+    "tags": ["migration", "delegitimierung"]
+  },
+  {
+    "short": "Asyltourismus",
+    "take": "Framing, das Flucht als freiwillige Konsumentscheidung darstellt und Schutzgründe verharmlost.",
+    "tags": ["migration", "abwertung", "populismus"]
+  },
+  {
+    "short": "Sozialmagnet Deutschland",
+    "take": "Reduziert Migration auf ökonomische Motive und blendet Fluchtursachen wie Krieg oder Verfolgung aus.",
+    "tags": ["migration", "ökonomisierung", "populismus"]
+  },
+  {
+    "short": "Überfremdung",
+    "take": "Völkischer Kampfbegriff, der kulturelle Vielfalt als Bedrohung einer imaginierten homogenen Nation darstellt.",
+    "tags": ["nationalismus", "rechtsextremismus"]
+  },
+  {
+    "short": "Fremd im eigenen Land",
+    "take": "Opfer-Narrativ der Mehrheitsgesellschaft, das reale Machtverhältnisse umkehrt.",
+    "tags": ["opferrolle", "nationalismus"]
+  },
+  {
+    "short": "Passdeutsche",
+    "take": "Begriff zur Aberkennung gleichwertiger Staatsbürgerschaft auf ethnischer Grundlage.",
+    "tags": ["rassismus", "identität"]
+  },
+  {
+    "short": "Biodeutsche",
+    "take": "Biologistischer Identitätsbegriff zur Etablierung ethnischer Hierarchien.",
+    "tags": ["rassismus", "biologismus"]
+  },
+  {
+    "short": "Geburtendschihad",
+    "take": "Islamfeindliche Verschwörungserzählung, die muslimischen Familien eine strategische Unterwanderung unterstellt.",
+    "tags": ["islamophobie", "verschwörung"]
+  },
+  {
+    "short": "Eurabia",
+    "take": "Verschwörungstheorie, nach der Europa gezielt islamisiert werde, um kulturellen Untergang zu beschwören.",
+    "tags": ["verschwörung", "islamophobie"]
+  },
+  {
+    "short": "Abendland in Gefahr",
+    "take": "Kulturalistisches Untergangsnarrativ, das religiöse Vielfalt als existenzielle Bedrohung darstellt.",
+    "tags": ["kulturkampf", "religion"]
+  },
+  {
+    "short": "Islam gehört nicht zu Deutschland",
+    "take": "Exkludierendes Identitätsnarrativ, das religiöse Minderheiten aus der nationalen Gemeinschaft ausschließt.",
+    "tags": ["islamophobie", "identität"]
+  },
+  {
+    "short": "Leitkultur",
+    "take": "Unklar definierter Begriff, der kulturelle Anpassung einseitig einfordert und Machtasymmetrien verschleiert.",
+    "tags": ["nationalismus", "assimilation"]
+  },
+  {
+    "short": "Festung Europa",
+    "take": "Militarisierte Metapher, die Abschottungspolitik normalisiert und humanitäre Verantwortung relativiert.",
+    "tags": ["migration", "abschottung"]
+  },
+  {
+    "short": "NGOs als Schlepper",
+    "take": "Delegitimiert Seenotrettung durch Kriminalisierung humanitärer Akteure.",
+    "tags": ["migration", "verschwörung", "delegitimierung"]
+  },
+  {
+    "short": "Migrationswaffe",
+    "take": "Stellt Migration als gezielte geopolitische Angriffstaktik dar und entmenschlicht Migranten vollständig.",
+    "tags": ["migration", "geopolitik", "entmenschlichung"]
+  },
+  {
+    "short": "Das Boot ist voll",
+    "take": "Historisch belastete Metapher, die Aufnahmekapazitäten absolut setzt und Solidarität delegitimiert.",
+    "tags": ["migration", "historische-kontinuität"]
+  },
+  {
+    "short": "Multikulti gescheitert",
+    "take": "Pauschalurteil ohne klare Definition, das komplexe Integrationsprozesse vereinfacht negativ bewertet.",
+    "tags": ["kulturkampf", "populismus"]
+  },
+  {
+    "short": "Kinder statt Inder",
+    "take": "Nationalistisch verkürztes Argument gegen Fachkräftezuwanderung unter dem Deckmantel von Familienpolitik.",
+    "tags": ["migration", "nationalismus"]
+  },
+  {
+    "short": "Ausländerkriminalität",
+    "take": "Ethnisierende Sammelkategorie, die soziale Faktoren ignoriert und Kriminalität kollektiv zuschreibt.",
+    "tags": ["migration", "rassismus"]
+  },
+  {
+    "short": "Parallelgesellschaft",
+    "take": "Begriff, der soziale Segregation moralisiert, ohne strukturelle Ursachen wie Diskriminierung zu benennen.",
+    "tags": ["migration", "gesellschaft"]
+  },
+  {
+    "short": "Grenzen schützen Frauen",
+    "take": "Instrumentalisiert Frauenrechte, um restriktive Migrationspolitik zu legitimieren.",
+    "tags": ["instrumentalisierung", "migration"]
+  },
+  {
+    "short": "Deutschland zuerst",
+    "take": "Nationalistisches Primat, das internationale Solidarität und Menschenrechte nachrangig behandelt.",
+    "tags": ["nationalismus", "populismus"]
+  },
+  {
+    "short": "Volksgemeinschaft",
+    "take": "Historisch belasteter Begriff, der ethnische Homogenität als politisches Ideal propagiert.",
+    "tags": ["rechtsextremismus", "ns-kontinuität"]
+  },
+  {
+    "short": "Bevölkerungsaustausch durch Eliten",
+    "take": "Kombiniert Migrationsthemen mit Elitenverschwörungen zur maximalen Emotionalisierung.",
+    "tags": ["verschwörung", "migration", "elitenkritik"]
+  },
+  {
+    "short": "Asylindustrie",
+    "take": "Unterstellt ein profitgetriebenes Netzwerk rund um Migration, um staatliche und zivilgesellschaftliche Akteure zu delegitimieren.",
+    "tags": ["verschwörung", "migration"]
+  },
+  {
+    "short": "Fremdbestimmung aus Brüssel",
+    "take": "Verbindet Migration mit EU-Feindlichkeit und stellt nationale Souveränität als bedroht dar.",
+    "tags": ["eu-skeptizismus", "nationalismus"]
+  },
+  {
+    "short": "Volkstod",
+    "take": "Biologistisches Untergangsnarrativ, das demografischen Wandel als existenzielle Bedrohung darstellt.",
+    "tags": ["rechtsextremismus", "demografie"]
+  },
+  {
+    "short": "Heimat als Abgrenzung",
+    "take": "Nutzt den Heimatbegriff exklusiv, um Vielfalt als illegitim darzustellen.",
+    "tags": ["nationalismus", "ausgrenzung"]
+  },
+  {
+    "short": "Klimadiktatur",
+    "take": "Stellt Klimapolitik als autoritäres Zwangsregime dar, um demokratisch beschlossene Maßnahmen zu delegitimieren.",
+    "tags": ["klima", "populismus", "delegitimierung"]
+  },
+  {
+    "short": "Öko-Faschismus",
+    "take": "Relativiert historischen Faschismus, indem Umweltschutz mit totalitärer Gewalt gleichgesetzt wird.",
+    "tags": ["klima", "ns-relativierung", "kulturkampf"]
+  },
+  {
+    "short": "CO2-Panik",
+    "take": "Diffamiert Klimaforschung als hysterische Übertreibung, um wissenschaftlichen Konsens infrage zu stellen.",
+    "tags": ["klima", "wissenschaftsfeindlichkeit"]
+  },
+  {
+    "short": "Klimawandel gab’s immer",
+    "take": "Cherry-Picking natürlicher Klimaschwankungen, um den menschengemachten Anteil zu leugnen.",
+    "tags": ["klimaleugnung", "cherry-picking"]
+  },
+  {
+    "short": "Mensch zu klein fürs Klima",
+    "take": "Philosophisch verbrämtes Argument, das physikalische Evidenz durch Größenvergleiche ersetzt.",
+    "tags": ["klimaleugnung", "pseudo-philosophie"]
+  },
+  {
+    "short": "Pflanzendünger-CO2",
+    "take": "Reduziert CO2 auf einen isolierten Effekt und blendet komplexe Klimawirkungen aus.",
+    "tags": ["klimaleugnung", "pseudo-wissenschaft"]
+  },
+  {
+    "short": "Hitzesommer = Wetter",
+    "take": "Verharmlost Extremereignisse durch Gleichsetzung von Klima und Wetter.",
+    "tags": ["klima", "verharmlosung"]
+  },
+  {
+    "short": "Blackout-Lüge",
+    "take": "Überzeichnet Risiken erneuerbarer Energien, um Angst vor Versorgungsausfällen zu erzeugen.",
+    "tags": ["energie", "angstmache"]
+  },
+  {
+    "short": "Energiewende zerstört Industrie",
+    "take": "Stellt Klimaschutz als gezielten Plan zur Deindustrialisierung dar.",
+    "tags": ["wirtschaft", "klima", "verschwörung"]
+  },
+  {
+    "short": "Windräder töten alles",
+    "take": "Isoliert Umweltaspekte von Windkraft ohne Vergleich zu fossilen Energien.",
+    "tags": ["klima", "pseudo-argument"]
+  },
+  {
+    "short": "Solar lohnt sich nicht",
+    "take": "Verwendet veraltete oder selektive Daten zur Wirtschaftlichkeit erneuerbarer Energien.",
+    "tags": ["energie", "desinformation"]
+  },
+  {
+    "short": "E-Autos schlimmer als Diesel",
+    "take": "Ignoriert Lebenszyklusanalysen und wissenschaftlichen Vergleich.",
+    "tags": ["mobilität", "klima", "desinformation"]
+  },
+  {
+    "short": "Krieg gegen das Auto",
+    "take": "Framing, das Verkehrswende als persönlichen Angriff auf Lebensstil darstellt.",
+    "tags": ["mobilität", "populismus"]
+  },
+  {
+    "short": "Heizungsverbot",
+    "take": "Überzeichnet regulatorische Maßnahmen zu totalen Verboten.",
+    "tags": ["klima", "angstmache"]
+  },
+  {
+    "short": "Enteignung durch Klimapolitik",
+    "take": "Stellt staatliche Regulierung als illegitimen Eigentumsraub dar.",
+    "tags": ["wirtschaft", "libertarismus-extrem"]
+  },
+  {
+    "short": "Fleischverbot geplant",
+    "take": "Unterstellt heimliche Verbotsagenda, um Konsumängste zu mobilisieren.",
+    "tags": ["populismus", "kulturkampf"]
+  },
+  {
+    "short": "Wissenschaft gekauft",
+    "take": "Delegitimiert Klimaforschung durch pauschale Korruptionsvorwürfe.",
+    "tags": ["wissenschaftsfeindlichkeit", "verschwörung"]
+  },
+  {
+    "short": "Klimaforscher ideologisch",
+    "take": "Ad-hominem-Angriff statt Auseinandersetzung mit Daten.",
+    "tags": ["ad-hominem", "wissenschaft"]
+  },
+  {
+    "short": "False Balance Klima",
+    "take": "Setzt randständige Gegenmeinungen gleichwertig neben wissenschaftlichen Konsens.",
+    "tags": ["medien", "wissenschaft"]
+  },
+  {
+    "short": "China macht mehr CO2",
+    "take": "Whataboutism, der eigene Verantwortung relativiert.",
+    "tags": ["whataboutism", "klima"]
+  },
+  {
+    "short": "Deutschland rettet Welt nicht",
+    "take": "Reduziert Klimaschutz auf symbolische Wirkungslosigkeit.",
+    "tags": ["klima", "defätismus"]
+  },
+  {
+    "short": "Grüne Verbotspartei",
+    "take": "Pauschalisiert Klimapolitik als autoritäres Verbotsprojekt.",
+    "tags": ["parteidiskreditierung", "klima"]
+  },
+  {
+    "short": "Öko-Religion",
+    "take": "Stellt Klimaschutz als Glaubenssystem dar, um Rationalität abzusprechen.",
+    "tags": ["klima", "wissenschaftsfeindlichkeit"]
+  },
+  {
+    "short": "Klimapanik für Steuern",
+    "take": "Unterstellt fiskalische Motive hinter Klimaschutz.",
+    "tags": ["verschwörung", "wirtschaft"]
+  },
+  {
+    "short": "Naturschutz gegen Menschen",
+    "take": "Konstruiert falschen Gegensatz zwischen Umwelt- und Sozialpolitik.",
+    "tags": ["falsches-dilemma", "klima"]
+  },
+  {
+    "short": "Arbeitsplätze vs. Klima",
+    "take": "Reduziert Transformationsprozesse auf Jobverluste.",
+    "tags": ["wirtschaft", "falsches-dilemma"]
+  },
+  {
+    "short": "Technologie regelt später",
+    "take": "Verschiebt Handlungsdruck durch unbelegte Zukunftsversprechen.",
+    "tags": ["techno-solutionism", "klima"]
+  },
+  {
+    "short": "Klimamodelle unzuverlässig",
+    "take": "Zweifelt Prognosen pauschal an, ohne methodische Kritik.",
+    "tags": ["klima", "wissenschaftsfeindlichkeit"]
+  },
+  {
+    "short": "Anpassung statt Vermeidung",
+    "take": "Setzt Anpassung gegen Emissionsreduktion, obwohl beides notwendig ist.",
+    "tags": ["klima", "verkürzung"]
+  },
+  {
+    "short": "Deutschland friert",
+    "take": "Überzeichnet Energiekrisen zu dauerhafter Mangellage.",
+    "tags": ["energie", "angstmache"]
+  },
+  {
+    "short": "Klimaschutz elitär",
+    "take": "Stellt Umweltpolitik als Projekt wohlhabender Eliten dar.",
+    "tags": ["populismus", "klima"]
+  },
+  {
+    "short": "CO2-Zertifikate Abzocke",
+    "take": "Reduziert Emissionshandel auf reine Geldmacherei.",
+    "tags": ["wirtschaft", "klima"]
+  },
+  {
+    "short": "Heizungspanik",
+    "take": "Emotionalisiert Gebäudepolitik durch Extrembeispiele.",
+    "tags": ["klima", "angstmache"]
+  },
+  {
+    "short": "Natürliche Eiszeiten",
+    "take": "Missbraucht Erdgeschichte zur Relativierung aktueller Dynamiken.",
+    "tags": ["klimaleugnung", "cherry-picking"]
+  },
+  {
+    "short": "Klimaschutz sinnlos",
+    "take": "Totaldelegitimierung komplexer Politik durch Absolutargument.",
+    "tags": ["klima", "nihilismus"]
+  },
+  {
+    "short": "Gender-Ideologie",
+    "take": "Framing, das Genderforschung als dogmatische Weltanschauung darstellt, um wissenschaftliche Erkenntnisse zu delegitimieren.",
+    "tags": ["gender", "wissenschaftsfeindlichkeit", "kulturkampf"]
+  },
+  {
+    "short": "Frühsexualisierung",
+    "take": "Unterstellt gezielte Sexualisierung von Kindern, um Aufklärung und Diversitätspolitik zu diskreditieren.",
+    "tags": ["gender", "angstmache", "kulturkampf"]
+  },
+  {
+    "short": "Umerziehung",
+    "take": "Totalitäres Framing gesellschaftlicher Lernprozesse zur Emotionalisierung gegen Gleichstellung.",
+    "tags": ["kulturkampf", "delegitimierung"]
+  },
+  {
+    "short": "Genderzwang",
+    "take": "Stellt freiwillige oder institutionelle Gleichstellungsmaßnahmen als Zwang dar.",
+    "tags": ["gender", "populismus"]
+  },
+  {
+    "short": "Zwei Geschlechter",
+    "take": "Biologistische Verkürzung komplexer biologischer und sozialer Realität.",
+    "tags": ["biologismus", "gender"]
+  },
+  {
+    "short": "Naturordnung zerstört",
+    "take": "Beruft sich auf vermeintlich natürliche Ordnung zur Legitimation von Diskriminierung.",
+    "tags": ["essentialismus", "gender"]
+  },
+  {
+    "short": "Gender macht krank",
+    "take": "Pathologisiert queere Identitäten ohne medizinische Evidenz.",
+    "tags": ["queerfeindlichkeit", "desinformation"]
+  },
+  {
+    "short": "Feminismus = Männerhass",
+    "take": "Strohmann-Argument, das Gleichstellung als Angriff auf Männer darstellt.",
+    "tags": ["antifeminismus", "kulturkampf"]
+  },
+  {
+    "short": "Krieg gegen Männer",
+    "take": "Opfer-Narrativ, das strukturelle Machtverhältnisse ausblendet.",
+    "tags": ["maskulinismus", "opferrolle"]
+  },
+  {
+    "short": "Echte Männer verschwinden",
+    "take": "Beschwört Identitätsverlust durch gesellschaftlichen Wandel.",
+    "tags": ["maskulinismus", "identität"]
+  },
+  {
+    "short": "Frauenquote ungerecht",
+    "take": "Ignoriert strukturelle Ungleichheit und reduziert Gleichstellung auf Individualleistung.",
+    "tags": ["gleichstellung", "verkürzung"]
+  },
+  {
+    "short": "MeToo Übertreibung",
+    "take": "Relativiert sexualisierte Gewalt durch Einzelfallfokus.",
+    "tags": ["antifeminismus", "relativierung"]
+  },
+  {
+    "short": "Männer unter Generalverdacht",
+    "take": "Konstruiert kollektive Schuldzuweisung als Opfererzählung.",
+    "tags": ["maskulinismus", "populismus"]
+  },
+  {
+    "short": "Queer-Propaganda",
+    "take": "Stellt Sichtbarkeit sexueller Vielfalt als gezielte Indoktrination dar.",
+    "tags": ["queerfeindlichkeit", "kulturkampf"]
+  },
+  {
+    "short": "Regenbogen-Lobby",
+    "take": "Verschwörungsnarrativ über angebliche Macht queerer Netzwerke.",
+    "tags": ["verschwörung", "queerfeindlichkeit"]
+  },
+  {
+    "short": "Kinder werden queer",
+    "take": "Falsche Kausalität zwischen Aufklärung und sexueller Orientierung.",
+    "tags": ["desinformation", "gender"]
+  },
+  {
+    "short": "Trans-Hype",
+    "take": "Bagatellisiert reale Lebensrealitäten als Modeerscheinung.",
+    "tags": ["transfeindlichkeit", "abwertung"]
+  },
+  {
+    "short": "Selbstbestimmung = Missbrauch",
+    "take": "Gleichsetzt geschlechtliche Selbstbestimmung mit Gefährdung.",
+    "tags": ["transfeindlichkeit", "angstmache"]
+  },
+  {
+    "short": "Frauenräume bedroht",
+    "take": "Instrumentalisiert Schutzräume zur Ausgrenzung von Transpersonen.",
+    "tags": ["instrumentalisierung", "transfeindlichkeit"]
+  },
+  {
+    "short": "Pronomen-Zwang",
+    "take": "Überzeichnet respektvolle Sprache zu autoritärem Sprachregime.",
+    "tags": ["sprache", "kulturkampf"]
+  },
+  {
+    "short": "Gender sprengt Sprache",
+    "take": "Stellt Sprachwandel als kulturellen Verfall dar.",
+    "tags": ["sprache", "kulturkampf"]
+  },
+  {
+    "short": "Traditionelle Familie",
+    "take": "Normiert ein Familienmodell und delegitimiert andere Lebensformen.",
+    "tags": ["familie", "reaktionär"]
+  },
+  {
+    "short": "Homosexualität unnatürlich",
+    "take": "Beruft sich auf falsche Naturargumente gegen queere Identitäten.",
+    "tags": ["homophobie", "pseudo-biologie"]
+  },
+  {
+    "short": "Gender lenkt ab",
+    "take": "Abwertung von Gleichstellung als Nebenthema zur Delegitimierung.",
+    "tags": ["whataboutism", "kulturkampf"]
+  },
+  {
+    "short": "Identitätspolitik spaltet",
+    "take": "Verschiebt Verantwortung für Polarisierung auf marginalisierte Gruppen.",
+    "tags": ["populismus", "frame-shifting"]
+  },
+  {
+    "short": "Frauenrechte vorgeschoben",
+    "take": "Unterstellt instrumentellen Missbrauch von Gleichstellungspolitik.",
+    "tags": ["misstrauen", "antifeminismus"]
+  },
+  {
+    "short": "Gender-Lehrstühle abschaffen",
+    "take": "Zielt auf Einschränkung akademischer Freiheit durch politische Intervention.",
+    "tags": ["wissenschaftsfeindlichkeit", "autoritarismus"]
+  },
+  {
+    "short": "Woke-Diktatur",
+    "take": "Überzeichnet gesellschaftliche Sensibilisierung zu totalitärer Bedrohung.",
+    "tags": ["kulturkampf", "hyperbel"]
+  },
+  {
+    "short": "Cancel Culture",
+    "take": "Rahmt soziale Sanktionen als systematische Unterdrückung.",
+    "tags": ["opferrolle", "medien"]
+  },
+  {
+    "short": "Normalität verteidigen",
+    "take": "Setzt eigene Lebensweise als Maßstab gesellschaftlicher Legitimität.",
+    "tags": ["normativität", "ausgrenzung"]
+  },
+  {
+    "short": "Biologie schlägt Gefühl",
+    "take": "Reduziert Geschlecht auf einfache Biologie und diskreditiert Sozialwissenschaften.",
+    "tags": ["biologismus", "wissenschaftsverkürzung"]
+  },
+  {
+    "short": "Queer als Staatsziel",
+    "take": "Überhöht Minderheitenrechte zu angeblicher Staatsdoktrin.",
+    "tags": ["verschwörung", "queerfeindlichkeit"]
+  },
+  {
+    "short": "Gender zerstört Leistung",
+    "take": "Behauptet Leistungsabfall durch Diversität ohne empirische Grundlage.",
+    "tags": ["desinformation", "arbeitswelt"]
+  },
+  {
+    "short": "Systemparteien",
+    "take": "Pauschale Abwertung aller etablierten Parteien, um pluralistische Demokratie als Scheinsystem darzustellen.",
+    "tags": ["delegitimierung", "populismus", "demokratiefeindlichkeit"]
+  },
+  {
+    "short": "Altparteien",
+    "take": "Abgrenzungsbegriff, der politische Konkurrenz als überholt und illegitim markiert.",
+    "tags": ["populismus", "parteidiskreditierung"]
+  },
+  {
+    "short": "Volksverräter",
+    "take": "Aggressiver Kampfbegriff zur moralischen Entmenschlichung politischer Gegner.",
+    "tags": ["entmenschlichung", "ns-vokabular"]
+  },
+  {
+    "short": "Die da oben",
+    "take": "Vereinfachende Elitenkonstruktion, die komplexe Machtverhältnisse personalisiert.",
+    "tags": ["populismus", "elitenkritik"]
+  },
+  {
+    "short": "Marionetten",
+    "take": "Unterstellt Politikern fehlende Eigenständigkeit zugunsten geheimer Mächte.",
+    "tags": ["verschwörung", "delegitimierung"]
+  },
+  {
+    "short": "Fremdgesteuert",
+    "take": "Impliziert externe Kontrolle demokratischer Entscheidungen ohne Belege.",
+    "tags": ["verschwörung", "demokratiefeindlichkeit"]
+  },
+  {
+    "short": "Demokratie nur Fassade",
+    "take": "Behauptet Scheindemokratie, um institutionelle Legitimität zu zerstören.",
+    "tags": ["delegitimierung", "verschwörung"]
+  },
+  {
+    "short": "Wahlen manipuliert",
+    "take": "Zweifelt Wahlergebnisse ohne Evidenz an, um Vertrauen in Wahlen zu untergraben.",
+    "tags": ["demokratiefeindlichkeit", "verschwörung"]
+  },
+  {
+    "short": "Briefwahlbetrug",
+    "take": "Stellt Briefwahl als systematisch unsicher dar, um Wahlergebnisse anzuzweifeln.",
+    "tags": ["wahlmisstrauen", "populismus"]
+  },
+  {
+    "short": "Stolen Election",
+    "take": "Übernahme US-amerikanischer Betrugsnarrative zur Delegitimierung eigener Wahlergebnisse.",
+    "tags": ["populismus", "verschwörung"]
+  },
+  {
+    "short": "Umfragen manipuliert",
+    "take": "Unterstellt gezielte Meinungssteuerung durch Demoskopie.",
+    "tags": ["medienkritik", "verschwörung"]
+  },
+  {
+    "short": "Lügenpresse",
+    "take": "Pauschale Medienfeindlichkeit zur Abschottung gegen kritische Berichterstattung.",
+    "tags": ["medienfeindlichkeit", "populismus"]
+  },
+  {
+    "short": "Staatsfunk",
+    "take": "Diskreditiert öffentlich-rechtliche Medien als Regierungsinstrument.",
+    "tags": ["medienkritik", "delegitimierung"]
+  },
+  {
+    "short": "Journalisten gesteuert",
+    "take": "Unterstellt redaktionelle Fremdsteuerung statt journalistischer Unabhängigkeit.",
+    "tags": ["verschwörung", "medien"]
+  },
+  {
+    "short": "Zensur überall",
+    "take": "Überzeichnet Moderation oder Widerspruch zu systematischer Unterdrückung.",
+    "tags": ["opferrolle", "medien"]
+  },
+  {
+    "short": "Man darf nichts sagen",
+    "take": "Ignoriert tatsächliche Meinungsfreiheit und verlagert Kritik auf Opfererzählung.",
+    "tags": ["opferrolle", "frame-shifting"]
+  },
+  {
+    "short": "Cancel Culture",
+    "take": "Rahmt gesellschaftliche Kritik als autoritäres Ausschlussinstrument.",
+    "tags": ["kulturkampf", "opferrolle"]
+  },
+  {
+    "short": "Meinungsdiktatur",
+    "take": "Gleichsetzt pluralistische Debatte mit Zwangsherrschaft.",
+    "tags": ["delegitimierung", "populismus"]
+  },
+  {
+    "short": "Faktenchecker Propaganda",
+    "take": "Stellt Überprüfung von Aussagen als staatliche Manipulation dar.",
+    "tags": ["desinformation", "medienkritik"]
+  },
+  {
+    "short": "Experten gekauft",
+    "take": "Delegitimiert Fachwissen durch pauschale Korruptionsunterstellung.",
+    "tags": ["wissenschaftsfeindlichkeit", "verschwörung"]
+  },
+  {
+    "short": "NGOs steuern Politik",
+    "take": "Unterstellt zivilgesellschaftlichen Organisationen geheime Macht.",
+    "tags": ["verschwörung", "elitenkritik"]
+  },
+  {
+    "short": "WEF-Regierung",
+    "take": "Verknüpft internationale Foren mit Herrschaftsverschwörungen.",
+    "tags": ["verschwörung", "globalismus"]
+  },
+  {
+    "short": "Great Reset",
+    "take": "Universalerklärungsnarrativ für Krisen und politische Veränderungen.",
+    "tags": ["verschwörung", "wirtschaft"]
+  },
+  {
+    "short": "Neue Weltordnung",
+    "take": "Diffuses Verschwörungsnarrativ über globale Machtübernahme.",
+    "tags": ["verschwörung", "nwo"]
+  },
+  {
+    "short": "Deep State",
+    "take": "Behauptet parallele Schattenregierung jenseits demokratischer Kontrolle.",
+    "tags": ["verschwörung", "demokratiefeindlichkeit"]
+  },
+  {
+    "short": "Soros steuert alles",
+    "take": "Personalisierte Verschwörungserzählung mit antisemitischen Mustern.",
+    "tags": ["antisemitismus", "verschwörung"]
+  },
+  {
+    "short": "Antifa steuert Staat",
+    "take": "Überhöht antifaschistische Gruppen zu allmächtigen Akteuren.",
+    "tags": ["verschwörung", "feindbild"]
+  },
+  {
+    "short": "Demonstranten bezahlt",
+    "take": "Delegitimiert Proteste durch Unterstellung finanzieller Steuerung.",
+    "tags": ["delegitimierung", "verschwörung"]
+  },
+  {
+    "short": "Grüne = Öko-SED",
+    "take": "Setzt demokratische Parteien mit Diktaturen gleich.",
+    "tags": ["ns/ddd-relativierung", "parteidiskreditierung"]
+  },
+  {
+    "short": "SPD = SED",
+    "take": "Historisch falscher Gleichsetzungsversuch zur politischen Diffamierung.",
+    "tags": ["geschichtsrevisionismus", "parteidiskreditierung"]
+  },
+  {
+    "short": "CDU linksgrün",
+    "take": "Entkernt politische Unterschiede, um Polarisierung zu verstärken.",
+    "tags": ["populismus", "vereinfachung"]
+  },
+  {
+    "short": "FDP Elitenpartei",
+    "take": "Reduziert komplexe Programmatik auf Feindbild der Reichen.",
+    "tags": ["populismus", "vereinfachung"]
+  },
+  {
+    "short": "Linke Staatszerstörer",
+    "take": "Stellt Opposition pauschal als verfassungsfeindlich dar.",
+    "tags": ["delegitimierung", "populismus"]
+  },
+  {
+    "short": "Koalition gegen Volk",
+    "take": "Konstruiert geschlossene Front aller Parteien gegen Bevölkerung.",
+    "tags": ["populismus", "opferrolle"]
+  },
+  {
+    "short": "Parteien gleich schlimm",
+    "take": "Relativiert Unterschiede demokratischer Angebote zur Politikverdrossenheit.",
+    "tags": ["demokratieverdrossenheit", "nihilismus"]
+  },
+  {
+    "short": "Politiker hassen Volk",
+    "take": "Unterstellt bewusste Feindseligkeit politischer Akteure gegenüber Bürgern.",
+    "tags": ["populismus", "entmenschlichung"]
+  },
+  {
+    "short": "Flache Erde",
+    "take": "Leugnet grundlegende naturwissenschaftliche Erkenntnisse und stellt Wissenschaft als großangelegte Täuschung dar.",
+    "tags": ["verschwörung", "wissenschaftsfeindlichkeit"]
+  },
+  {
+    "short": "Fake-NASA",
+    "take": "Behauptet, Raumfahrtbehörden würden systematisch Weltraumforschung fälschen.",
+    "tags": ["verschwörung", "raumfahrt"]
+  },
+  {
+    "short": "Mondlandung gefälscht",
+    "take": "Ignoriert umfangreiche technische und historische Belege zugunsten einfacher Täuschungsnarrative.",
+    "tags": ["verschwörung", "wissenschaft"]
+  },
+  {
+    "short": "Chemtrails",
+    "take": "Interpretiert Kondensstreifen als geheime Wetter- oder Bevölkerungsmanipulation.",
+    "tags": ["verschwörung", "pseudowissenschaft"]
+  },
+  {
+    "short": "Wetterwaffen",
+    "take": "Schreibt Extremwetter gezielter technischer Steuerung zu statt klimatischen Ursachen.",
+    "tags": ["verschwörung", "klima"]
+  },
+  {
+    "short": "HAARP kontrolliert Klima",
+    "take": "Überhöht reale Forschungsanlagen zu allmächtigen Kontrollinstrumenten.",
+    "tags": ["verschwörung", "technik"]
+  },
+  {
+    "short": "Reptiloiden",
+    "take": "Mythisches Erklärungsmodell, das Machteliten als nichtmenschliche Wesen darstellt.",
+    "tags": ["absurde-verschwörung", "elitenfeindbild"]
+  },
+  {
+    "short": "Formwandler-Eliten",
+    "take": "Personifiziert Macht in fantastischen Figuren zur maximalen Dämonisierung.",
+    "tags": ["verschwörung", "mythos"]
+  },
+  {
+    "short": "Gedankenkontrolle",
+    "take": "Unterstellt flächendeckende mentale Steuerung durch unbekannte Technologien.",
+    "tags": ["verschwörung", "paranoia"]
+  },
+  {
+    "short": "5G macht krank",
+    "take": "Schreibt Mobilfunk unbelegte Gesundheits- oder Kontrollwirkungen zu.",
+    "tags": ["verschwörung", "gesundheit"]
+  },
+  {
+    "short": "5G = Überwachung",
+    "take": "Verbindet technische Infrastruktur mit totalitären Kontrollfantasien.",
+    "tags": ["verschwörung", "technologie"]
+  },
+  {
+    "short": "Impfchips",
+    "take": "Behauptet Mikrochip-Implantation durch Impfungen ohne jede technische Plausibilität.",
+    "tags": ["verschwörung", "gesundheit"]
+  },
+  {
+    "short": "Impfung verändert DNA",
+    "take": "Missversteht oder verfälscht molekularbiologische Grundlagen.",
+    "tags": ["desinformation", "gesundheit"]
+  },
+  {
+    "short": "Pandemie geplant",
+    "take": "Unterstellt gezielte Freisetzung von Krankheiten zur Machtausweitung.",
+    "tags": ["verschwörung", "biopolitik"]
+  },
+  {
+    "short": "Plandemie",
+    "take": "Leugnet natürliche Krankheitsausbreitung zugunsten globaler Steuerungsfantasien.",
+    "tags": ["verschwörung", "gesundheit"]
+  },
+  {
+    "short": "Bill Gates Impfagenda",
+    "take": "Personalisiert komplexe globale Gesundheitsinitiativen zu Kontrollverschwörungen.",
+    "tags": ["verschwörung", "personalisierung"]
+  },
+  {
+    "short": "Bevölkerungsreduktion",
+    "take": "Unterstellt geheime Programme zur Dezimierung der Menschheit.",
+    "tags": ["verschwörung", "demografie"]
+  },
+  {
+    "short": "Überwachungstauben",
+    "take": "Interpretiert alltägliche Tiere als staatliche Spionagetechnik.",
+    "tags": ["absurde-verschwörung"]
+  },
+  {
+    "short": "Vögel sind Drohnen",
+    "take": "Radikale Technisierung von Natur zur Totalverdachtslogik.",
+    "tags": ["absurde-verschwörung", "paranoia"]
+  },
+  {
+    "short": "Geheime Basen",
+    "take": "Behauptet verborgene Militär- oder Elitenstützpunkte ohne überprüfbare Hinweise.",
+    "tags": ["verschwörung", "geheimhaltung"]
+  },
+  {
+    "short": "Unterirdische Tunnel",
+    "take": "Kombiniert Architekturmythen mit Eliten- und Missbrauchsphantasien.",
+    "tags": ["verschwörung", "qanon-nahe"]
+  },
+  {
+    "short": "Kinderblut-Rituale",
+    "take": "Extrem dämonisierende Verschwörungserzählung mit antisemitischen Strukturmustern.",
+    "tags": ["verschwörung", "antisemitismus"]
+  },
+  {
+    "short": "Adrenochrom",
+    "take": "Pseudo-biochemisches Narrativ zur Legitimation totaler Feindbilder.",
+    "tags": ["verschwörung", "qanon-nahe"]
+  },
+  {
+    "short": "Zeitreisende Eliten",
+    "take": "Fantastische Erklärungsmuster für politische Ereignisse.",
+    "tags": ["absurde-verschwörung"]
+  },
+  {
+    "short": "Simulationstheorie politisch",
+    "take": "Philosophische Hypothesen werden als politische Täuschung umgedeutet.",
+    "tags": ["verkürzung", "verschwörung"]
+  },
+  {
+    "short": "Matrix-Ausbruch",
+    "take": "Selbstüberhöhung als Erwachte gegenüber angeblich manipulierten Massen.",
+    "tags": ["selbstelitismus", "verschwörung"]
+  },
+  {
+    "short": "Mainstream-Schlafschafe",
+    "take": "Abwertung Andersdenkender zur Abschottung eigener Überzeugungen.",
+    "tags": ["abwertung", "sektenlogik"]
+  },
+  {
+    "short": "Geheime Weltregierung",
+    "take": "Diffuses Erklärungsmodell für globale Prozesse ohne institutionelle Analyse.",
+    "tags": ["verschwörung", "nwo"]
+  },
+  {
+    "short": "Schattenregierung",
+    "take": "Parallelmacht-Narrativ zur Delegitimierung demokratischer Institutionen.",
+    "tags": ["verschwörung", "deep-state"]
+  },
+  {
+    "short": "Medienhypnose",
+    "take": "Unterstellt Massenmanipulation durch Medien ohne empirische Grundlage.",
+    "tags": ["verschwörung", "medienfeindlichkeit"]
+  },
+  {
+    "short": "Frequenzangriffe",
+    "take": "Schreibt Alltagsbeschwerden unsichtbaren technischen Angriffen zu.",
+    "tags": ["paranoia", "pseudowissenschaft"]
+  },
+  {
+    "short": "Alien-Elitenpakt",
+    "take": "Verschmilzt UFO-Mythen mit politischer Machtkritik.",
+    "tags": ["absurde-verschwörung", "ufos"]
+  },
+  {
+    "short": "Antarktis gesperrt",
+    "take": "Behauptet verborgene Wahrheiten an schwer zugänglichen Orten.",
+    "tags": ["verschwörung", "geografie"]
+  },
+  {
+    "short": "Verbotene Geschichte",
+    "take": "Unterstellt systematische Unterdrückung alternativer Historie.",
+    "tags": ["geschichtsmythos", "verschwörung"]
+  },
+  {
+    "short": "Freie Energie unterdrückt",
+    "take": "Behauptet geheime, saubere Energiequellen würden absichtlich zurückgehalten.",
+    "tags": ["verschwörung", "technik"]
+  },
+  {
+    "short": "Perpetuum mobile",
+    "take": "Ignoriert physikalische Grundgesetze zugunsten einfacher Erlösungsversprechen.",
+    "tags": ["pseudowissenschaft"]
+  },
+  {
+    "short": "Medizin heilt alles",
+    "take": "Verspricht universelle Heilmethoden ohne klinische Evidenz.",
+    "tags": ["gesundheit", "esoterik"]
+  },
+  {
+    "short": "Schulmedizin Betrug",
+    "take": "Diskreditiert evidenzbasierte Medizin zugunsten alternativer Heilsversprechen.",
+    "tags": ["wissenschaftsfeindlichkeit", "gesundheit"]
+  },
+  {
+    "short": "Pharmamafia",
+    "take": "Personalisiert strukturelle Probleme des Gesundheitssystems zu kriminellen Netzwerken.",
+    "tags": ["verschwörung", "gesundheit"]
+  },
+  {
+    "short": "Krebs heilbar geheim",
+    "take": "Behauptet unterdrückte Heilmittel zur maximalen Emotionalisierung.",
+    "tags": ["desinformation", "gesundheit"]
+  },
+  {
+    "short": "Juden kontrollieren Medien",
+    "take": "Antisemitisches Stereotyp, das komplexe Medienstrukturen auf eine angebliche ethnische Steuerung reduziert.",
+    "tags": ["antisemitismus", "verschwörung"]
+  },
+  {
+    "short": "Globalisten",
+    "take": "Codewort zur Personalisierung abstrakter Globalisierungsprozesse mit antisemitischer Anschlussfähigkeit.",
+    "tags": ["antisemitismus-nahe", "elitenfeindbild"]
+  },
+  {
+    "short": "Finanzjudentum",
+    "take": "Historisch belasteter Begriff, der wirtschaftliche Macht ethnisch zuschreibt.",
+    "tags": ["antisemitismus", "ns-kontinuität"]
+  },
+  {
+    "short": "Ostküste",
+    "take": "Chiffre zur indirekten Benennung jüdischer Eliten ohne offene Nennung.",
+    "tags": ["antisemitische-codes"]
+  },
+  {
+    "short": "Zionisten steuern Politik",
+    "take": "Verschwörungserzählung, die israelbezogene Kritik in antisemitische Generalverdächtigung überführt.",
+    "tags": ["antisemitismus", "verschwörung"]
+  },
+  {
+    "short": "Israel gleich Nazis",
+    "take": "Relativiert den Holocaust durch Täter-Opfer-Umkehr.",
+    "tags": ["antisemitismus", "ns-relativierung"]
+  },
+  {
+    "short": "Holocaust übertrieben",
+    "take": "Geschichtsrevisionistische Strategie zur Relativierung nationalsozialistischer Verbrechen.",
+    "tags": ["antisemitismus", "geschichtsrevisionismus"]
+  },
+  {
+    "short": "Schuldkult",
+    "take": "Diskreditiert Erinnerungskultur als illegitime Dauerbeschuldigung.",
+    "tags": ["geschichtsrevisionismus", "nationalismus"]
+  },
+  {
+    "short": "Stolpersteine Selbsthass",
+    "take": "Abwertung von Gedenkkultur zur Entlastung kollektiver Verantwortung.",
+    "tags": ["antisemitismus", "kulturkampf"]
+  },
+  {
+    "short": "Antisemitismus nur importiert",
+    "take": "Externalisiert Judenfeindlichkeit und blendet historische Kontinuitäten aus.",
+    "tags": ["verdrängung", "antisemitismus"]
+  },
+  {
+    "short": "Frauen an den Herd",
+    "take": "Reaktionäres Rollenbild zur Einschränkung weiblicher Selbstbestimmung.",
+    "tags": ["frauenfeindlichkeit", "traditionalismus"]
+  },
+  {
+    "short": "Frauen ungeeignet für Führung",
+    "take": "Biologistische Zuschreibung zur Legitimation struktureller Benachteiligung.",
+    "tags": ["sexismus", "biologismus"]
+  },
+  {
+    "short": "Gleichstellung unnötig",
+    "take": "Leugnet empirisch belegte Ungleichheiten.",
+    "tags": ["antifeminismus", "wissenschaftsfeindlichkeit"]
+  },
+  {
+    "short": "Männerdiskriminierung",
+    "take": "Opfernarrativ, das Machtasymmetrien umkehrt.",
+    "tags": ["maskulinismus", "opferrolle"]
+  },
+  {
+    "short": "Incel-Logik",
+    "take": "Externalisiert persönliche Frustration in frauenfeindliche Schuldzuweisung.",
+    "tags": ["incel", "frauenfeindlichkeit"]
+  },
+  {
+    "short": "Frauen schulden Sex",
+    "take": "Entmenschlichende Ideologie, die sexuelle Verfügbarkeit fordert.",
+    "tags": ["incel", "gewaltlegitimierung"]
+  },
+  {
+    "short": "Queers zerstören Familie",
+    "take": "Untergangsnarrativ ohne empirische Grundlage.",
+    "tags": ["queerfeindlichkeit", "kulturkampf"]
+  },
+  {
+    "short": "Homosexualität heilbar",
+    "take": "Pseudomedizinische Behauptung, die zu realer Schädigung führt.",
+    "tags": ["homophobie", "desinformation"]
+  },
+  {
+    "short": "Trans gleich Gefahr",
+    "take": "Sicherheitsframing zur Rechtfertigung von Ausgrenzung.",
+    "tags": ["transfeindlichkeit", "angstmache"]
+  },
+  {
+    "short": "Drag gefährdet Kinder",
+    "take": "Moralpanik ohne empirische Basis.",
+    "tags": ["queerfeindlichkeit", "moralpanic"]
+  },
+  {
+    "short": "Behinderte kosten zu viel",
+    "take": "Ökonomisierung menschlichen Wertes mit eugenischer Nähe.",
+    "tags": ["ableismus", "entwertung"]
+  },
+  {
+    "short": "Sozialschmarotzer",
+    "take": "Entmenschlichung sozial Benachteiligter zur Kürzungslegitimation.",
+    "tags": ["soziale-ausgrenzung", "populismus"]
+  },
+  {
+    "short": "Arme selbst schuld",
+    "take": "Individualisiert strukturelle Ungleichheit.",
+    "tags": ["neoliberalismus-extrem", "verkürzung"]
+  },
+  {
+    "short": "Arbeitslose faul",
+    "take": "Stigmatisierung ohne Berücksichtigung empirischer Arbeitsmarktdaten.",
+    "tags": ["soziale-stigmatisierung"]
+  },
+  {
+    "short": "Flüchtlinge verwöhnt",
+    "take": "Verdreht Unterstützungsleistungen zu Privilegien.",
+    "tags": ["migration", "neidnarrativ"]
+  },
+  {
+    "short": "Behinderte ungeborene verhindern",
+    "take": "Implizite eugenische Logik zur Normierung von Leben.",
+    "tags": ["eugenik-nahe", "menschenfeindlichkeit"]
+  },
+  {
+    "short": "Kinderlose wertlos",
+    "take": "Biologistische Bewertung gesellschaftlicher Zugehörigkeit.",
+    "tags": ["demografie", "ausgrenzung"]
+  },
+  {
+    "short": "Alte belasten System",
+    "take": "Entwertet Menschen nach ökonomischer Produktivität.",
+    "tags": ["ageismus", "ökonomisierung"]
+  },
+  {
+    "short": "Pflege lohnt nicht",
+    "take": "Reduziert Fürsorge auf Kosten-Nutzen-Rechnung.",
+    "tags": ["sozialdarwinismus"]
+  },
+  {
+    "short": "Solidarität Schwäche",
+    "take": "Autoritäres Weltbild, das Kooperation abwertet.",
+    "tags": ["autoritarismus", "sozialdarwinismus"]
+  },
+  {
+    "short": "Starke Nation braucht Härte",
+    "take": "Normalisiert Gewalt und Repression als politische Tugend.",
+    "tags": ["autoritarismus", "gewaltlegitimierung"]
+  },
+  {
+    "short": "Populismus rettet Volk",
+    "take": "Stellt einfache Lösungen und starke Führung als einzige Antwort auf komplexe gesellschaftliche Probleme dar.",
+    "tags": ["populismus", "vereinfachung"]
+  },
+  {
+    "short": "Starker Mann nötig",
+    "take": "Autoritäres Führungsnarrativ, das demokratische Aushandlung als Schwäche framet.",
+    "tags": ["autoritarismus", "demokratiefeindlichkeit"]
+  },
+  {
+    "short": "Ordnung statt Freiheit",
+    "take": "Setzt Sicherheit gegen Freiheitsrechte und normalisiert Repression.",
+    "tags": ["autoritarismus", "sicherheitslogik"]
+  },
+  {
+    "short": "Recht und Ordnung",
+    "take": "Reduziert gesellschaftliche Probleme auf Strafverschärfung.",
+    "tags": ["law-and-order", "populismus"]
+  },
+  {
+    "short": "Harte Strafen wirken",
+    "take": "Ignoriert empirische Kriminologie zugunsten intuitiver Abschreckungslogik.",
+    "tags": ["strafpopulismus", "wissenschaftsignoranz"]
+  },
+  {
+    "short": "Gefängnisse voll = Erfolg",
+    "take": "Missinterpretiert Inhaftierungsraten als Maß für Sicherheit.",
+    "tags": ["strafpopulismus", "verkürzung"]
+  },
+  {
+    "short": "Polizei immer im Recht",
+    "take": "Unkritische Autoritätsgläubigkeit ohne rechtsstaatliche Kontrolle.",
+    "tags": ["autoritarismus", "polizeikult"]
+  },
+  {
+    "short": "Kritik an Polizei verboten",
+    "take": "Delegitimiert notwendige Kontrolle staatlicher Gewalt.",
+    "tags": ["delegitimierung", "autoritarismus"]
+  },
+  {
+    "short": "Justiz links unterwandert",
+    "take": "Unterstellt ideologische Steuerung unabhängiger Gerichte.",
+    "tags": ["verschwörung", "rechtsstaat"]
+  },
+  {
+    "short": "Richter Volksfeinde",
+    "take": "Entmenschlicht rechtsstaatliche Institutionen bei unliebsamen Urteilen.",
+    "tags": ["delegitimierung", "autoritarismus"]
+  },
+  {
+    "short": "Grundrechte Luxus",
+    "take": "Stellt Freiheitsrechte als verzichtbar in Krisen dar.",
+    "tags": ["autoritarismus", "grundrechte"]
+  },
+  {
+    "short": "Not kennt kein Gesetz",
+    "take": "Legitimiert Rechtsbrüche durch behauptete Ausnahmesituationen.",
+    "tags": ["ausnahmezustand", "autoritarismus"]
+  },
+  {
+    "short": "Demokratie zu langsam",
+    "take": "Framet demokratische Verfahren als ineffizientes Hindernis.",
+    "tags": ["demokratiekritik", "autoritarismus"]
+  },
+  {
+    "short": "Experten entscheiden",
+    "take": "Technokratisches Argument zur Umgehung demokratischer Kontrolle.",
+    "tags": ["technokratie", "demokratieverkürzung"]
+  },
+  {
+    "short": "Volkswille über Recht",
+    "take": "Stellt Mehrheitsmeinung über Grund- und Minderheitenrechte.",
+    "tags": ["majoritarismus", "demokratie-missbrauch"]
+  },
+  {
+    "short": "Direkte Demokratie alles",
+    "take": "Idealisiert Volksabstimmungen ohne Schutzmechanismen.",
+    "tags": ["populismus", "demokratieverkürzung"]
+  },
+  {
+    "short": "Eliten gegen Volk",
+    "take": "Binäres Weltbild zur Mobilisierung politischer Ressentiments.",
+    "tags": ["populismus", "elitenfeindbild"]
+  },
+  {
+    "short": "Systemwechsel nötig",
+    "take": "Diffuser Umsturzbegriff ohne klare Alternative.",
+    "tags": ["systemopposition", "radikalisierung"]
+  },
+  {
+    "short": "Revolution friedlich",
+    "take": "Verharmlost destabilisierende Systembrüche rhetorisch.",
+    "tags": ["revolutionsromantik", "verharmlosung"]
+  },
+  {
+    "short": "Widerstand jetzt",
+    "take": "Radikalisiert politische Opposition durch moralische Notwehrlogik.",
+    "tags": ["radikalisierung", "mobilisierung"]
+  },
+  {
+    "short": "Verfassung hindert Volk",
+    "take": "Stellt rechtsstaatliche Grenzen als illegitime Fesseln dar.",
+    "tags": ["demokratiefeindlichkeit", "autoritarismus"]
+  },
+  {
+    "short": "Grundgesetz fremd",
+    "take": "Delegitimiert Verfassung als auferlegt statt demokratisch legitimiert.",
+    "tags": ["reichsbürger-nähe", "verschwörung"]
+  },
+  {
+    "short": "Neue Verfassung jetzt",
+    "take": "Missbraucht legitime Reformdebatten für Systemdelegitimierung.",
+    "tags": ["systemkritik", "populismus"]
+  },
+  {
+    "short": "Parteien abschaffen",
+    "take": "Angriff auf pluralistische Grundstruktur demokratischer Systeme.",
+    "tags": ["demokratiefeindlichkeit", "autoritarismus"]
+  },
+  {
+    "short": "Medien kontrollieren Volk",
+    "take": "Totalisierende Medienverschwörung ohne empirische Differenzierung.",
+    "tags": ["medienfeindlichkeit", "verschwörung"]
+  },
+  {
+    "short": "Bildung indoktriniert",
+    "take": "Unterstellt systematische Gehirnwäsche durch Schulen und Universitäten.",
+    "tags": ["bildungsfeindlichkeit", "verschwörung"]
+  },
+  {
+    "short": "Unis links verseucht",
+    "take": "Delegitimiert Wissenschaft als ideologische Kaderschmiede.",
+    "tags": ["wissenschaftsfeindlichkeit", "kulturkampf"]
+  },
+  {
+    "short": "Kunst dekadent",
+    "take": "Moralisiert ästhetische Vielfalt als kulturellen Verfall.",
+    "tags": ["kulturkampf", "reaktionär"]
+  },
+  {
+    "short": "Moderne verkommen",
+    "take": "Untergangsnarrativ gegen gesellschaftlichen Wandel.",
+    "tags": ["kulturpessimismus", "autoritarismus"]
+  },
+  {
+    "short": "Früher war alles besser",
+    "take": "Idealisiert Vergangenheit und blendet historische Probleme aus.",
+    "tags": ["nostalgie", "verkürzung"]
+  },
+  {
+    "short": "Dekadenz des Westens",
+    "take": "Zivilisationsnarrativ zur Legitimation autoritärer Alternativen.",
+    "tags": ["kulturkampf", "autoritarismus"]
+  },
+  {
+    "short": "Liberale schwach",
+    "take": "Diskreditiert liberale Werte als Zeichen moralischer Schwäche.",
+    "tags": ["antiliberalismus", "autoritarismus"]
+  },
+  {
+    "short": "Menschenrechte relativ",
+    "take": "Stellt universelle Rechte als kulturell beliebig dar.",
+    "tags": ["menschenrechtsrelativismus", "autoritarismus"]
+  },
+  {
+    "short": "Gewalt reinigend",
+    "take": "Romantisiert Gewalt als notwendige gesellschaftliche Erneuerung.",
+    "tags": ["gewaltlegitimierung", "extremismus"]
+  }
+]
