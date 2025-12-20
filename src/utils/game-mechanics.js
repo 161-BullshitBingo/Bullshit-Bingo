@@ -2,6 +2,7 @@
 
 // Filtert alle Takes nach mindestens einem passenden Tag
 export function filterByTags(allTakes, requiredTags) {
+  return allTakes;
   return allTakes.filter((entry) =>
     entry.tags.some((tag) => requiredTags.includes(tag)),
   );
@@ -34,12 +35,13 @@ export function make5x5Grid(items) {
 // Reichert eine einzelne Zelle um zusätzliche Felder an
 export function enrichCell(entry) {
   return {
-    id: crypto.randomUUID(),
+    id: entry.id,
     short: entry.short,
-    take: entry.take,
-    tags: entry.tags ?? [],
+    take: entry.example,
+    tags: entry.tags.super.concat(entry.tags.topic),
+    claim: entry.claim,
+    debunk: entry.debunk,
     checked: false,
-    info: entry.info ?? "",
   };
 }
 

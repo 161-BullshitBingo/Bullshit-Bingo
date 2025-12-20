@@ -13,7 +13,7 @@ import {
   enrichItems,
   checkForBingoFromCells,
 } from "@/utils/game-mechanics.js";
-import takes from "@/assets/rechteTakes.json";
+import takes from "@/assets/rechteTakes_v2.json";
 
 /* =====================
  * State & Setup
@@ -23,7 +23,18 @@ const emit = defineEmits(["show-take"]);
 
 const bingoLinesEver = ref(new Set());
 
-const filtered = filterByTags(takes, ["klima"]);
+const all = [
+  "Rechtsextrem / AfD-nah",
+  "Verschwörungsideologisch",
+  "Populistisch / Anti-Establishment",
+  "Antidemokratisch",
+  "Migrations- & Islamfeindlich",
+  "LGBTQIA+- & Genderfeindlich",
+  "Wissenschafts- & Medienfeindlich",
+  "Autoritär / Law-and-Order",
+];
+
+const filtered = filterByTags(takes, all);
 const enriched = enrichItems(getRandom25(takes));
 const bingoGrid = ref(make5x5Grid(enriched));
 const flatGrid = computed(() => bingoGrid.value.flat());

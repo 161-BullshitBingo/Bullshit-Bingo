@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted } from "vue";
+import InfoBoard from "@/components/MainMenu.vue";
 import BingoCard from "@/components/BingoCard.vue";
 import LeftDrawer from "@/components/LeftDrawer.vue";
 import RightDrawer from "@/components/RightDrawer.vue";
@@ -77,13 +78,7 @@ onMounted(() => {
 
     <!-- Popup -->
     <q-dialog v-model="showDialog" backdrop-filter="blur(4px) saturate(150%)">
-      <q-card
-        flat
-        dark
-        class="bg-primary text-white q-pa-md"
-        style="height: 400px; max-height: 60vw; width: 700px; max-width: 80vw"
-      >
-      </q-card>
+      <InfoBoard />
     </q-dialog>
   </q-layout>
 </template>

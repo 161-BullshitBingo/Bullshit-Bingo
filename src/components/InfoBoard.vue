@@ -28,7 +28,7 @@ const sources = [
   <div class="q-py-sm">
     <div class="text-subtitle2 bg-secondary">Die Aussage:</div>
     <div class="text-subtitle1 text-weight-bold text-primary">
-      {{ props.take.take }}
+      {{ props.take.claim.summary }}
     </div>
   </div>
 
@@ -52,10 +52,7 @@ const sources = [
   <div class="q-py-sm">
     <div class="text-subtitle2 bg-secondary">Beschreibung:</div>
     <div class="text-body2">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-      aliquid ad quas sunt voluptatum officia dolorum cumque, possimus nihil
-      molestias sapiente necessitatibus dolor saepe inventore, soluta id
-      accusantium voluptas beatae.
+      {{ props.take.claim.description }}
     </div>
   </div>
 
@@ -65,10 +62,7 @@ const sources = [
   <div class="q-py-sm">
     <div class="text-subtitle2 bg-secondary">Richtigstellung</div>
     <div class="text-body2">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-      aliquid ad quas sunt voluptatum officia dolorum cumque, possimus nihil
-      molestias sapiente necessitatibus dolor saepe inventore, soluta id
-      accusantium voluptas beatae.
+      {{ props.take.debunk.correction }}
     </div>
   </div>
 
@@ -80,7 +74,7 @@ const sources = [
 
     <q-list dense class="q-pa-none">
       <q-item
-        v-for="source in sources"
+        v-for="source in take.debunk.sources"
         :key="source.url"
         clickable
         tag="a"

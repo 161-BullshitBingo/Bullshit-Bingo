@@ -4,9 +4,14 @@ import { ref } from "vue";
 const group = ref([]);
 
 const options = [
-  { label: "Battery too low", value: "bat" },
-  { label: "Friend request", value: "friend" },
-  { label: "Picture uploaded", value: "upload" },
+  { label: "Rechtsextrem / AfD-nah", value: "afd" },
+  { label: "Verschwörungsideologisch", value: "vt" },
+  { label: "Populistisch / Anti-Establishment", value: "pop" },
+  { label: "Antidemokratisch", value: "anti" },
+  { label: "Migrations- & Islamfeindlich", value: "mig" },
+  { label: "LGBTQIA+- & Genderfeindlich", value: "lgbt" },
+  { label: "Wissenschafts- & Medienfeindlich", value: "wis" },
+  { label: "Autoritär / Law-and-Order", value: "aut" },
 ];
 
 const emit = defineEmits(["reset", "newCard"]);
@@ -33,7 +38,19 @@ const emit = defineEmits(["reset", "newCard"]);
       <q-expansion-item icon="info" label="Info">
         <q-item>
           <q-item-section>
-            Rechtsklick / Long-Press auf ein Feld zeigt Info.
+            1. Rechtsklick / Long-Press auf ein Feld zeigt Info.
+          </q-item-section>
+        </q-item>
+        <q-item>
+          <q-item-section>
+            2. Für eine neue Bingo Karte derzeit noch bitte einmal Seite neu
+            laden.
+          </q-item-section>
+        </q-item>
+        <q-item>
+          <q-item-section>
+            3. Derzeit sind Auswahl der Themen sowie die Punkte im 'Spiel'
+            reiter noch Platzhalter und funktionieren nicht.
           </q-item-section>
         </q-item>
       </q-expansion-item>
