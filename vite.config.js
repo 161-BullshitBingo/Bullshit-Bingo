@@ -5,6 +5,10 @@ import path from "path";
 
 export default defineConfig({
   base: "/Bullshit-Bingo/",
+  build: {
+    outDir: "docs",
+    emptyOutDir: true,
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
