@@ -74,7 +74,7 @@ const sources = [
 
     <q-list dense class="q-pa-none">
       <q-item
-        v-for="source in take.debunk.sources"
+        v-for="source in props.take.debunk?.sources"
         :key="source.url"
         clickable
         tag="a"

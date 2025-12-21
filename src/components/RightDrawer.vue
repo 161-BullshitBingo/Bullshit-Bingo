@@ -1,14 +1,14 @@
 <script setup>
 import InfoBoard from "@/components/InfoBoard.vue";
-const props = defineProps({
-  take: { type: Object, default: null },
-});
+import { useBingoStore } from "@/stores/bingo";
+
+const bingo = useBingoStore();
 </script>
 
 <template>
   <div class="q-pa-sm">
-    <div v-if="props.take">
-      <InfoBoard :take="props.take" />
+    <div v-if="bingo.selectedTake">
+      <InfoBoard :take="bingo.selectedTake" />
     </div>
 
     <div v-else class="text-grey">

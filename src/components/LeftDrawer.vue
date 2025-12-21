@@ -1,16 +1,8 @@
 <script setup>
-import { ref, watch } from "vue";
+import { computed } from "vue";
+import { useBingoStore } from "@/stores/bingo";
 
-const selection = ref([
-  "afd",
-  "vt",
-  "pop",
-  "anti",
-  "mig",
-  "lgbt",
-  "wis",
-  "aut",
-]);
+const bingo = useBingoStore();
 
 const options = [
   { label: "Rechtsextrem / AfD-nah", value: "afd" },
@@ -24,15 +16,15 @@ const options = [
   { label: "Klima", value: "klima" }, // TODO: add 'Klima' Takes
 ];
 
-const emit = defineEmits(["reset", "newCard", "update:selection"]);
-
-watch(
-  selection,
-  (val) => {
-    emit("update:selection", val);
+// v-model Adapter auf den Store (damit QOptionGroup sauber funktioniert)
+const selectionModel = computed({
+  get: () => bingo.selection,
+  set: (v) => {
+    bingo.selection = v;
+    // optional: sofort neu mischen bei Filteränderung
+    bingo.reshuffle();
   },
-  { deep: true, immediate: true },
-);
+});
 </script>
 
 <template>
@@ -41,10 +33,10 @@ watch(
       <q-item-label header>Menü</q-item-label>
 
       <q-expansion-item icon="grid_view" label="Spiel">
-        <q-item clickable v-ripple @click="emit('newCard')">
+        <q-item clickable v-ripple @click="bingo.reshuffle()">
           <q-item-section>Neue Karte</q-item-section>
         </q-item>
-        <q-item clickable v-ripple @click="emit('reset')">
+        <q-item clickable v-ripple @click="bingo.resetBoard()">
           <q-item-section>Alle Felder zurücksetzen</q-item-section>
         </q-item>
       </q-expansion-item>
@@ -53,7 +45,7 @@ watch(
         <q-option-group
           :options="options"
           type="checkbox"
-          v-model="selection"
+          v-model="selectionModel"
         />
       </q-expansion-item>
 
@@ -64,16 +56,7 @@ watch(
           </q-item-section>
         </q-item>
         <q-item>
-          <q-item-section>
-            2. Für eine neue Bingo Karte derzeit noch bitte einmal Seite neu
-            laden.
-          </q-item-section>
-        </q-item>
-        <q-item>
-          <q-item-section>
-            3. Derzeit sind Auswahl der Themen sowie die Punkte im 'Spiel'
-            Reiter noch Platzhalter und funktionieren nicht.
-          </q-item-section>
+          <q-item-section> 2. FTZ FRZ </q-item-section>
         </q-item>
       </q-expansion-item>
     </q-list>

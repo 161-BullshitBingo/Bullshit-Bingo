@@ -35,9 +35,13 @@ export const useBingoStore = defineStore("bingo", {
       return state.selection.map((k) => tagMap[k]).filter(Boolean);
     },
     filteredTakes(state) {
-      return this.selectedTags.length
-        ? filterByTags(takes, this.selectedTags)
-        : takes;
+      const required = this.selectedTags;
+      if (!required.length) return takes;
+
+      // match gegen tags.super (Labels!)
+      return takes.filter((entry) =>
+        (entry.tags?.super ?? []).some((tag) => required.includes(tag)),
+      );
     },
     flatGrid(state) {
       return state.grid.flat();
@@ -49,6 +53,8 @@ export const useBingoStore = defineStore("bingo", {
       const enriched = enrichItems(getRandom25(this.filteredTakes));
       this.grid = make5x5Grid(enriched);
       this.bingoLinesEver = new Set();
+      console.log("selection:", this.selection);
+      console.log("example take tags:", takes[0]?.tags);
     },
 
     resetBoard() {
