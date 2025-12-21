@@ -1,8 +1,12 @@
 <script setup>
-/* =====================
- * Imports
- * ===================== */
-import { ref, computed, onMounted, onBeforeUnmount, nextTick } from "vue";
+import {
+  computed,
+  nextTick,
+  onBeforeUnmount,
+  onMounted,
+  ref,
+  watch,
+} from "vue";
 import { useQuasar } from "quasar";
 import confetti from "canvas-confetti";
 import BingoCardCell from "@/components/BingoCardCell.vue";
@@ -21,6 +25,12 @@ import takes from "@/assets/rechteTakes_v2.json";
 const $q = useQuasar();
 const emit = defineEmits(["show-take"]);
 
+const props = defineProps({
+  selection: { type: Array, required: true },
+  newCardTick: { type: Number, required: true },
+  resetTick: { type: Number, required: true },
+});
+
 const bingoLinesEver = ref(new Set());
 
 const all = [
@@ -34,10 +44,40 @@ const all = [
   "Autoritär / Law-and-Order",
 ];
 
-const filtered = filterByTags(takes, all);
-const enriched = enrichItems(getRandom25(takes));
+const tagMap = {
+  afd: "Rechtsextrem / AfD-nah",
+  vt: "Verschwörungsideologisch",
+  pop: "Populistisch / Anti-Establishment",
+  anti: "Antidemokratisch",
+  mig: "Migrations- & Islamfeindlich",
+  lgbt: "LGBTQIA+- & Genderfeindlich",
+  wis: "Wissenschafts- & Medienfeindlich",
+  aut: "Autoritär / Law-and-Order",
+};
+
+const selectedTags = computed(() =>
+  (props.selection ?? []).map((k) => tagMap[k]).filter(Boolean),
+);
+
+const filteredTakes = computed(() =>
+  selectedTags.value.length ? filterByTags(takes, selectedTags.value) : takes,
+);
+const enriched = enrichItems(getRandom25(filteredTakes.value));
 const bingoGrid = ref(make5x5Grid(enriched));
 const flatGrid = computed(() => bingoGrid.value.flat());
+
+function reshuffle() {
+  const enriched = enrichItems(getRandom25(filteredTakes.value));
+  bingoGrid.value = make5x5Grid(enriched);
+  bingoLinesEver.value = new Set();
+}
+
+function resetBoard() {
+  for (const cell of flatGrid.value) {
+    cell.checked = false;
+  }
+  bingoLinesEver.value = new Set();
+}
 
 /* =====================
  * Bingo Logic
@@ -118,6 +158,28 @@ function recomputeScale() {
   const s = Math.min(availW / baseW, availH / baseH) * margin;
   scale.value = Math.min(1, s);
 }
+
+watch(
+  () => props.newCardTick,
+  () => {
+    reshuffle();
+  },
+);
+
+watch(
+  () => props.resetTick,
+  () => {
+    resetBoard();
+  },
+);
+
+watch(
+  filteredTakes,
+  () => {
+    reshuffle();
+  },
+  { immediate: true },
+);
 
 onMounted(async () => {
   await nextTick();

@@ -4230,8 +4230,8 @@
   },
   {
     "id": "take_000133",
-    "short": "SPD = SED",
-    "example": "„SPD = SED!“",
+    "short": "Linke = SED",
+    "example": "„Linke = SED!“",
     "claim": {
       "summary": "Historisch falscher Gleichsetzungsversuch zur politischen Diffamierung.",
       "description": "Hintergrund: geschichte. Typisches Motiv aus neurechten/rechtsextremen Deutungsangeboten. Nutzt Anti-Establishment-Framing (\"die da oben\" vs. \"das Volk\")."
@@ -7615,4 +7615,3 @@
     }
   }
 ]
-

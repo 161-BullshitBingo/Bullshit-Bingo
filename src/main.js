@@ -1,4 +1,5 @@
 import { createApp } from "vue";
+import { createPinia } from "pinia";
 import { Quasar, Notify, Dark } from "quasar";
 
 // Import Quasar css+icons
@@ -17,6 +18,9 @@ myApp.use(Quasar, {
 
 // Enforce Dark Mode
 Dark.set(true); // Dark Mode ON
+
+// Verwende Pinia Store für State Handling
+myApp.use(createPinia());
 
 // Assumes you have a <div id="app"></div> in your index.html
 myApp.mount("#app");

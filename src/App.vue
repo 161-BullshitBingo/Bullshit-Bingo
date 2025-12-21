@@ -1,37 +1,49 @@
 <script setup>
 import { ref, onMounted } from "vue";
+import confetti from "canvas-confetti";
 import InfoBoard from "@/components/MainMenu.vue";
 import BingoCard from "@/components/BingoCard.vue";
 import LeftDrawer from "@/components/LeftDrawer.vue";
 import RightDrawer from "@/components/RightDrawer.vue";
-import confetti from "canvas-confetti";
 
 const leftDrawerOpen = ref(false);
 const rightDrawerOpen = ref(false);
+const showDialog = ref(false);
+
+const selectedTake = ref(null);
+const selection = ref([]);
+const newCardTick = ref(0);
+const resetTick = ref(0);
+
+function onShowTake(cellOrId) {
+  selectedTake.value = cellOrId;
+  rightDrawerOpen.value = true;
+}
 
 function toggleLeftDrawer() {
   leftDrawerOpen.value = !leftDrawerOpen.value;
-}
-
-const selectedTake = ref(null);
-
-function onShowTake(cellOrId) {
-  // wenn BingoCard dir schon das cell-Objekt gibt:
-  selectedTake.value = cellOrId;
-
-  // Drawer aufklappen
-  rightDrawerOpen.value = true;
 }
 
 function toggleRightDrawer() {
   rightDrawerOpen.value = !rightDrawerOpen.value;
 }
 
-const showDialog = ref(false);
+function onSelectionUpdate(val) {
+  selection.value = val;
+}
+
+function onNewCard() {
+  newCardTick.value++;
+}
+
+function onReset() {
+  resetTick.value++;
+}
 
 onMounted(() => {
   showDialog.value = true;
 });
+// Script Ende
 </script>
 
 <template>
@@ -53,7 +65,12 @@ onMounted(() => {
       overlay
       bordered
     >
-      <LeftDrawer />
+      <LeftDrawer
+        :selection="selection"
+        @update:selection="onSelectionUpdate"
+        @newCard="onNewCard"
+        @reset="onReset"
+      />
     </q-drawer>
 
     <!-- Right -->
@@ -71,7 +88,12 @@ onMounted(() => {
     <q-page-container>
       <q-page class="fit">
         <div class="fit flex flex-center padding">
-          <BingoCard @show-take="onShowTake" />
+          <BingoCard
+            :selection="selection"
+            :new-card-tick="newCardTick"
+            :reset-tick="resetTick"
+            @show-take="onShowTake"
+          />
         </div>
       </q-page>
     </q-page-container>

@@ -1,17 +1,5 @@
 <script setup>
-// import confetti from "canvas-confetti";
-// import { useQuasar } from "quasar";
 //
-// const $q = useQuasar();
-//
-// const particle = {
-//   particleCount: 150,
-//   spread: 70,
-//   origin: { y: 0.6 },
-//   colors: gam,
-// };
-//
-// const gam = ["#ffa3b5", "#7f7f7f", "#c9c7c5", "#000000", "#1a1a1a"];
 </script>
 
 <template>
