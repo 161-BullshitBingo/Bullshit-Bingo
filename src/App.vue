@@ -102,30 +102,36 @@ onMounted(() => {
             <q-scroll-area class="col">
               <q-list separator>
                 <q-item v-for="(cell, idx) in flatGrid" :key="cell.id">
-                  <!-- Checkbox (nur hier wird gehakt) -->
-                  <q-item-section avatar>
-                    <q-checkbox
-                      :model-value="cell.checked"
-                      @update:model-value="bingo.toggleCell(cell.id)"
-                      @click.stop
-                    />
-                  </q-item-section>
-
-                  <!-- Text inkl. Nummer -->
+                  <!-- Text -->
                   <q-item-section>
-                    <div>{{ cell.short }}</div>
+                    <div class="row no-wrap items-center">
+                      <span class="text-weight-medium q-mr-xs"
+                        >{{ idx + 1 }}.</span
+                      >
+                      <span class="ellipsis">{{ cell.short }}</span>
+                    </div>
                   </q-item-section>
 
-                  <!-- Info Button -->
-                  <q-item-section avatar>
-                    <q-btn
-                      flat
-                      dense
-                      round
-                      icon="info"
-                      color="primary"
-                      @click.stop="showInfo(cell)"
-                    />
+                  <!-- Actions (Info + Checkbox zusammen) -->
+                  <q-item-section side>
+                    <div class="row no-wrap items-center q-gutter-xs">
+                      <q-btn
+                        flat
+                        dense
+                        round
+                        icon="info"
+                        color="primary"
+                        size="sm"
+                        @click.stop="showInfo(cell)"
+                      />
+
+                      <q-checkbox
+                        dense
+                        :model-value="cell.checked"
+                        @update:model-value="bingo.toggleCell(cell.id)"
+                        @click.stop
+                      />
+                    </div>
                   </q-item-section>
                 </q-item>
               </q-list>
