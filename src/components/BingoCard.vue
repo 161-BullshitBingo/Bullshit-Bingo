@@ -2,36 +2,34 @@
 import { computed, nextTick, onBeforeUnmount, onMounted, ref } from "vue";
 import BingoCardCell from "@/components/BingoCardCell.vue";
 import { useBingoStore } from "@/stores/bingo";
+import { useQuasar } from "quasar";
 
 /* =====================
- * Store
+ * Store & Mobile Detection
  * ===================== */
 const bingo = useBingoStore();
+const $q = useQuasar();
+const isMobile = computed(() => $q.screen.lt.sm);
 
 // falls noch keine Karte existiert: initial erstellen
 if (!bingo.grid?.length) {
   bingo.reshuffle();
 }
 
-// flaches Grid kommt direkt aus dem Store (Getter)
 const flatGrid = computed(() => bingo.flatGrid);
 
-/* =====================
- * Right Drawer Info
- * ===================== */
 const showInfo = (cell) => {
   bingo.showTake(cell);
 };
 
-/* =====================
- * Auto-Fit (Dark Magic)
- * ===================== */
 const wrapEl = ref(null);
 const cardEl = ref(null);
 const scale = ref(1);
 let ro;
 
 function recomputeScale() {
+  if (isMobile.value) return;
+
   const wrap = wrapEl.value;
   const card = cardEl.value;
   if (!wrap || !card) return;
@@ -49,46 +47,64 @@ function recomputeScale() {
 }
 
 onMounted(async () => {
+  if (isMobile.value) return;
+
   await nextTick();
   recomputeScale();
   ro = new ResizeObserver(recomputeScale);
-  ro.observe(wrapEl.value);
+  if (wrapEl.value) {
+    ro.observe(wrapEl.value);
+  }
 });
 
 onBeforeUnmount(() => ro?.disconnect());
 </script>
 
 <template>
-  <div ref="wrapEl" class="bingo-wrapper">
+  <div v-if="!isMobile" ref="wrapEl" class="bingo-wrapper-desktop">
     <div
       ref="cardEl"
-      class="bingo-container"
+      class="bingo-container-desktop"
       :style="{ transform: `scale(${scale})` }"
     >
       <BingoCardCell
-        v-for="cell in flatGrid"
+        v-for="(cell, idx) in flatGrid"
         :key="cell.id"
         :cell="cell"
+        :index="idx + 1"
+        :compact="false"
         @toggle="bingo.toggleCell"
         @info="showInfo"
+      />
+    </div>
+  </div>
+
+  <div v-else class="bingo-wrapper-mobile">
+    <div class="bingo-container-mobile">
+      <BingoCardCell
+        v-for="(cell, idx) in flatGrid"
+        :key="cell.id"
+        :cell="cell"
+        :index="idx + 1"
+        :compact="true"
       />
     </div>
   </div>
 </template>
 
 <style scoped>
-.bingo-wrapper {
+/* ===== DESKTOP ===== */
+.bingo-wrapper-desktop {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px;
   box-sizing: border-box;
   overflow: hidden;
 }
 
-.bingo-container {
+.bingo-container-desktop {
   transform-origin: center center;
   aspect-ratio: 1 / 1;
   width: min(90vmin, 720px);
@@ -96,5 +112,26 @@ onBeforeUnmount(() => ro?.disconnect());
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 8px;
+}
+
+/* ===== MOBILE ===== */
+.bingo-wrapper-mobile {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.bingo-container-mobile {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+  padding: 8px;
+  box-sizing: border-box;
 }
 </style>
